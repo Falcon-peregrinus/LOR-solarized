@@ -5,7 +5,7 @@ html, body, .msg {
 background-color: #002b36 !important;
 color: #839496 !important;
 }
-.boxlet, .infoblock, #whois_userpic, thead, .forum tr:hover, span.tag {
+.boxlet, .infoblock, #whois_userpic, thead, .forum tr:hover, span.tag, .page-number {
 background-color: #073642 !important;
 color: #839496 !important;
 }
@@ -61,6 +61,7 @@ color: #586e75 !important;
 .fav-buttons .selected [class^="icon-"] {
 color: #b58900 !important;
 }
+
 pre code, .code {
 	background: #073642 !important;
 	color: #839496 !important;
