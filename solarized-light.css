@@ -94,3 +94,7 @@ pre .tex .formula {
 	background: #eee8d5 !important;
 }
 }
+span.code {
+	display: inline !important;
+	padding: 0 !important;
+}
