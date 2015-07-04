@@ -5,6 +5,9 @@
         background-color: #002b36 !important;
         color: #839496 !important;
     }
+    #bd h1, #bd h2, .icon-tag, .stars, .icon-tag-color, .icon-user-color, .icon-pin-color, .icon-reply-color {
+        color: #839496 !important;
+    }
     .boxlet, .infoblock, #whois_userpic, thead, .forum tr:hover, span.tag, .page-number {
         background-color: #073642 !important;
         color: #839496 !important;
