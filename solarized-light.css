@@ -1,14 +1,14 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("linux.org.ru") {
-    html, body, .msg {
+    html, body, .msg, .tracker-item {
         background-color: #fdf6e3 !important;
         color: #657b83 !important;
     }
-    #bd h1, #bd h2, .icon-tag, .stars, .icon-tag-color, .icon-user-color, .icon-pin-color, .icon-reply-color {
+    #bd h1, #bd h2, .icon-tag, .stars, .icon-tag-color, .icon-user-color, .icon-pin-color, .icon-reply-color, .tracker-src, .tracker-tags .tag, .tracker-last, .tracker-count {
         color: #657b83 !important;
     }
-    .boxlet, .infoblock, #whois_userpic, thead, .forum tr:hover, span.tag, .page-number {
+    .boxlet, .infoblock, #whois_userpic, thead, .forum tr:hover, span.tag, .page-number, .group-label {
         background-color: #eee8d5 !important;
         color: #657b83 !important;
     }
@@ -26,8 +26,16 @@
         color: #586e75 !important;
         text-decoration: none !important;
     }
-    a {
+    a, .tracker-title {
         color: #b58900 !important;
+    }
+    .group-label, .tracker-tags .tag {
+        border-radius: 3px !important;
+    }
+  
+    .group-label {
+        font-weight: normal !important;
+        padding: 2px 4px !important;;
     }
     .stars {
         color: #2aa198 !important;
@@ -100,5 +108,20 @@
     span.code {
         display: inline !important;
         padding: 0 !important;
+    }
+    #hd::before {
+        position: absolute !important;
+        padding-top: 0.5rem;
+        content: "‍" !important;
+        font-size: 2em;
+        width: 100% !important;
+        background-color: #93a1a1 !important;
+        color: #93a1a1 !important;
+        left: 0 !important;
+        top: 0 !important;
+        z-index: -1 !important;
+    }
+    #sitetitle {
+        padding-right: 1.5rem !important;;
     }
 }
